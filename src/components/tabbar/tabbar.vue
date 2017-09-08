@@ -1,5 +1,4 @@
 <template>
-  <div>
     <tabbar>
       <tabbar-item link="/home">
         <img slot="icon" src="./icon_nav_button.png">
@@ -18,7 +17,6 @@
         <span slot="label">我的</span>
       </tabbar-item>
     </tabbar>
-  </div>
 </template>
 <script>
 import { Tabbar, TabbarItem, Group, Cell } from 'vux'
